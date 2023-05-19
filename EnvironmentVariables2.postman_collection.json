@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "09b7b462-91ce-4973-bcd4-bb435b868bbf",
+		"name": "EnvironmentVariables2",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26099444",
+		"_collection_link": "https://grey-eclipse-85596.postman.co/workspace/My-Workspace~86a21c66-3080-4d38-8c0b-baa024158f96/collection/26099444-09b7b462-91ce-4973-bcd4-bb435b868bbf?action=share&creator=26099444&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "Get test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:4000/",
+					"host": [
+						"localhost"
+					],
+					"port": "4000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get prod",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:5000/",
+					"host": [
+						"localhost"
+					],
+					"port": "5000",
+					"path": [
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
